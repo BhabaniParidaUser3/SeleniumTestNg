@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="loan Department">
-  <test name="Personal Loan">
-  <packages>
- <package name="test"></package>
- </packages>
+<suite name="Smoke Department">
+  <test name=" Smoke Regression">
+  <groups>
+  <run>
+  <include name="smoke"></include>
+  </run>
+  </groups>
+  <classes>
+  <class name="test.Day1"></class>
+  <class name="test.Day2"></class>
+  <class name="test.Day3"></class>
+  <class name="test.Day4"></class>
+  <class name="test.Day5"></class>
+  <class name="test.Day6"></class>
+  <class name="test.Day7"></class>
+  <class name="test.Day8"></class>
+  </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
