@@ -2,24 +2,60 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="181" started-at="2024-02-12T21:03:52 IST" finished-at="2024-02-12T21:03:52 IST">
+  <suite name="Smoke Department" duration-ms="76" started-at="2024-02-13T00:40:28 IST" finished-at="2024-02-13T00:40:28 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="181" started-at="2024-02-12T21:03:52 IST" finished-at="2024-02-12T21:03:52 IST">
-      <class name="test.AnnotationHelperAttribute">
-        <test-method status="PASS" signature="Loginpage()[pri:0, instance:test.AnnotationHelperAttribute@5a8806ef]" name="Loginpage" duration-ms="16" started-at="2024-02-12T21:03:52 IST" finished-at="2024-02-12T21:03:52 IST">
+    <test name=" Smoke Regression" duration-ms="76" started-at="2024-02-13T00:40:28 IST" finished-at="2024-02-13T00:40:28 IST">
+      <class name="test.DataProviderAnnotationConcept">
+        <test-method status="PASS" signature="login(java.lang.String,java.lang.String)[pri:0, instance:test.DataProviderAnnotationConcept@2a17b7b6]" name="login" duration-ms="8" started-at="2024-02-13T00:40:28 IST" data-provider="getData" finished-at="2024-02-13T00:40:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstUserName]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstPassword]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Loginpage -->
-        <test-method status="PASS" signature="SignUppage()[pri:0, instance:test.AnnotationHelperAttribute@5a8806ef]" name="SignUppage" duration-ms="78" started-at="2024-02-12T21:03:52 IST" finished-at="2024-02-12T21:03:52 IST">
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String,java.lang.String)[pri:0, instance:test.DataProviderAnnotationConcept@2a17b7b6]" name="login" duration-ms="5" started-at="2024-02-13T00:40:28 IST" data-provider="getData" finished-at="2024-02-13T00:40:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondUserName]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondPassword]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SignUppage -->
-        <test-method status="PASS" signature="Homepage()[pri:0, instance:test.AnnotationHelperAttribute@5a8806ef]" name="Homepage" duration-ms="2" started-at="2024-02-12T21:03:52 IST" depends-on-methods="test.AnnotationHelperAttribute.SignUppage, test.AnnotationHelperAttribute.Loginpage" finished-at="2024-02-12T21:03:52 IST">
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String,java.lang.String)[pri:0, instance:test.DataProviderAnnotationConcept@2a17b7b6]" name="login" duration-ms="2" started-at="2024-02-13T00:40:28 IST" data-provider="getData" finished-at="2024-02-13T00:40:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirdUserName]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdPassword]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Homepage -->
-      </class> <!-- test.AnnotationHelperAttribute -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- login -->
+      </class> <!-- test.DataProviderAnnotationConcept -->
+    </test> <!--  Smoke Regression -->
+  </suite> <!-- Smoke Department -->
 </testng-results>

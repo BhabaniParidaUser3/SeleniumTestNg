@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!-- suitelevelparameterization -->
+<suite name="Smoke Department">
+<parameter name="url" value="https://www.facebook.com"></parameter>
+<parameter name="apikey" value="192.168.1.1"></parameter>
+  <test name=" Smoke Regression">
+  <classes>
+  <class name="test.ParameterizationConcept"></class>
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
