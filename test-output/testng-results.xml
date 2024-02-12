@@ -1,69 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="18" total="26" passed="8">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Smoke Department" duration-ms="111" started-at="2024-02-12T17:32:03 IST" finished-at="2024-02-12T17:32:03 IST">
+  <suite name="Default suite" duration-ms="181" started-at="2024-02-12T21:03:52 IST" finished-at="2024-02-12T21:03:52 IST">
     <groups>
-      <group name="smoke">
-        <method signature="Day1.group1()[pri:0, instance:test.Day1@51cdd8a]" name="group1" class="test.Day1"/>
-        <method signature="Day2.group2()[pri:0, instance:test.Day2@394e1a0f]" name="group2" class="test.Day2"/>
-        <method signature="Day3.group3()[pri:0, instance:test.Day3@1d29cf23]" name="group3" class="test.Day3"/>
-        <method signature="Day4.group4()[pri:0, instance:test.Day4@5f282abb]" name="group4" class="test.Day4"/>
-        <method signature="Day5.group5()[pri:0, instance:test.Day5@167fdd33]" name="group5" class="test.Day5"/>
-        <method signature="Day6.group6()[pri:0, instance:test.Day6@1b68ddbd]" name="group6" class="test.Day6"/>
-        <method signature="Day7.group7()[pri:0, instance:test.Day7@646d64ab]" name="group7" class="test.Day7"/>
-        <method signature="Day8.group8()[pri:0, instance:test.Day8@59e5ddf]" name="group8" class="test.Day8"/>
-      </group> <!-- smoke -->
     </groups>
-    <test name=" Smoke Regression" duration-ms="111" started-at="2024-02-12T17:32:03 IST" finished-at="2024-02-12T17:32:03 IST">
-      <class name="test.Day1">
-        <test-method status="PASS" signature="group1()[pri:0, instance:test.Day1@51cdd8a]" name="group1" duration-ms="12" started-at="2024-02-12T17:32:03 IST" finished-at="2024-02-12T17:32:03 IST">
+    <test name="Default test" duration-ms="181" started-at="2024-02-12T21:03:52 IST" finished-at="2024-02-12T21:03:52 IST">
+      <class name="test.AnnotationHelperAttribute">
+        <test-method status="PASS" signature="Loginpage()[pri:0, instance:test.AnnotationHelperAttribute@5a8806ef]" name="Loginpage" duration-ms="16" started-at="2024-02-12T21:03:52 IST" finished-at="2024-02-12T21:03:52 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- group1 -->
-      </class> <!-- test.Day1 -->
-      <class name="test.Day2">
-        <test-method status="PASS" signature="group2()[pri:0, instance:test.Day2@394e1a0f]" name="group2" duration-ms="4" started-at="2024-02-12T17:32:03 IST" finished-at="2024-02-12T17:32:03 IST">
+        </test-method> <!-- Loginpage -->
+        <test-method status="PASS" signature="SignUppage()[pri:0, instance:test.AnnotationHelperAttribute@5a8806ef]" name="SignUppage" duration-ms="78" started-at="2024-02-12T21:03:52 IST" finished-at="2024-02-12T21:03:52 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- group2 -->
-      </class> <!-- test.Day2 -->
-      <class name="test.Day3">
-        <test-method status="PASS" signature="group3()[pri:0, instance:test.Day3@1d29cf23]" name="group3" duration-ms="2" started-at="2024-02-12T17:32:03 IST" finished-at="2024-02-12T17:32:03 IST">
+        </test-method> <!-- SignUppage -->
+        <test-method status="PASS" signature="Homepage()[pri:0, instance:test.AnnotationHelperAttribute@5a8806ef]" name="Homepage" duration-ms="2" started-at="2024-02-12T21:03:52 IST" depends-on-methods="test.AnnotationHelperAttribute.SignUppage, test.AnnotationHelperAttribute.Loginpage" finished-at="2024-02-12T21:03:52 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- group3 -->
-      </class> <!-- test.Day3 -->
-      <class name="test.Day4">
-        <test-method status="PASS" signature="group4()[pri:0, instance:test.Day4@5f282abb]" name="group4" duration-ms="2" started-at="2024-02-12T17:32:03 IST" finished-at="2024-02-12T17:32:03 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- group4 -->
-      </class> <!-- test.Day4 -->
-      <class name="test.Day5">
-        <test-method status="PASS" signature="group5()[pri:0, instance:test.Day5@167fdd33]" name="group5" duration-ms="2" started-at="2024-02-12T17:32:03 IST" finished-at="2024-02-12T17:32:03 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- group5 -->
-      </class> <!-- test.Day5 -->
-      <class name="test.Day6">
-        <test-method status="PASS" signature="group6()[pri:0, instance:test.Day6@1b68ddbd]" name="group6" duration-ms="2" started-at="2024-02-12T17:32:03 IST" finished-at="2024-02-12T17:32:03 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- group6 -->
-      </class> <!-- test.Day6 -->
-      <class name="test.Day7">
-        <test-method status="PASS" signature="group7()[pri:0, instance:test.Day7@646d64ab]" name="group7" duration-ms="2" started-at="2024-02-12T17:32:03 IST" finished-at="2024-02-12T17:32:03 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- group7 -->
-      </class> <!-- test.Day7 -->
-      <class name="test.Day8">
-        <test-method status="PASS" signature="group8()[pri:0, instance:test.Day8@59e5ddf]" name="group8" duration-ms="1" started-at="2024-02-12T17:32:03 IST" finished-at="2024-02-12T17:32:03 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- group8 -->
-      </class> <!-- test.Day8 -->
-    </test> <!--  Smoke Regression -->
-  </suite> <!-- Smoke Department -->
+        </test-method> <!-- Homepage -->
+      </class> <!-- test.AnnotationHelperAttribute -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
