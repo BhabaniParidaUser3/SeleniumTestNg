@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="5" total="18" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="loan Department" duration-ms="203" started-at="2024-02-10T14:35:25 IST" finished-at="2024-02-10T14:35:26 IST">
+    <groups>
+    </groups>
+    <test name="Personal Loan" duration-ms="71" started-at="2024-02-10T14:35:25 IST" finished-at="2024-02-10T14:35:25 IST">
+      <class name="test.Day1">
+        <test-method status="PASS" signature="add()[pri:0, instance:test.Day1@5d76b067]" name="add" duration-ms="10" started-at="2024-02-10T14:35:25 IST" finished-at="2024-02-10T14:35:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add -->
+      </class> <!-- test.Day1 -->
+      <class name="test.Day2">
+        <test-method status="PASS" signature="ass()[pri:0, instance:test.Day2@7f13d6e]" name="ass" duration-ms="2" started-at="2024-02-10T14:35:25 IST" finished-at="2024-02-10T14:35:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ass -->
+      </class> <!-- test.Day2 -->
+      <class name="test.Day4">
+        <test-method status="PASS" signature="apiLoginHomeLoan()[pri:0, instance:test.Day4@51cdd8a]" name="apiLoginHomeLoan" duration-ms="2" started-at="2024-02-10T14:35:25 IST" finished-at="2024-02-10T14:35:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiLoginHomeLoan -->
+        <test-method status="PASS" signature="mobileLoginHomeLoan()[pri:0, instance:test.Day4@51cdd8a]" name="mobileLoginHomeLoan" duration-ms="2" started-at="2024-02-10T14:35:25 IST" finished-at="2024-02-10T14:35:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileLoginHomeLoan -->
+        <test-method status="PASS" signature="webLoginHomeLoan()[pri:0, instance:test.Day4@51cdd8a]" name="webLoginHomeLoan" duration-ms="1" started-at="2024-02-10T14:35:25 IST" finished-at="2024-02-10T14:35:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLoginHomeLoan -->
+      </class> <!-- test.Day4 -->
+    </test> <!-- Personal Loan -->
+    <test name="Car Loan" duration-ms="13" started-at="2024-02-10T14:35:25 IST" finished-at="2024-02-10T14:35:25 IST">
+      <class name="test.Day3">
+        <test-method status="PASS" signature="apiLogincarLoan()[pri:0, instance:test.Day3@467aecef]" name="apiLogincarLoan" duration-ms="4" started-at="2024-02-10T14:35:25 IST" finished-at="2024-02-10T14:35:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiLogincarLoan -->
+        <test-method status="PASS" signature="webLogincarLoan()[pri:0, instance:test.Day3@467aecef]" name="webLogincarLoan" duration-ms="2" started-at="2024-02-10T14:35:25 IST" finished-at="2024-02-10T14:35:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLogincarLoan -->
+      </class> <!-- test.Day3 -->
+    </test> <!-- Car Loan -->
+    <test name="Study Loan" duration-ms="14" started-at="2024-02-10T14:35:25 IST" finished-at="2024-02-10T14:35:25 IST">
+      <class name="test.Day5">
+        <test-method status="PASS" signature="MobileLoginHomePage()[pri:0, instance:test.Day5@6f195bc3]" name="MobileLoginHomePage" duration-ms="5" started-at="2024-02-10T14:35:25 IST" finished-at="2024-02-10T14:35:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginHomePage -->
+        <test-method status="PASS" signature="MobileLoginSignInPage()[pri:0, instance:test.Day5@6f195bc3]" name="MobileLoginSignInPage" duration-ms="2" started-at="2024-02-10T14:35:25 IST" finished-at="2024-02-10T14:35:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginSignInPage -->
+        <test-method status="PASS" signature="MobileLoginSignUpPage()[pri:0, instance:test.Day5@6f195bc3]" name="MobileLoginSignUpPage" duration-ms="1" started-at="2024-02-10T14:35:25 IST" finished-at="2024-02-10T14:35:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginSignUpPage -->
+      </class> <!-- test.Day5 -->
+    </test> <!-- Study Loan -->
+    <test name="Gold Loan" duration-ms="6" started-at="2024-02-10T14:35:25 IST" finished-at="2024-02-10T14:35:25 IST">
+      <class name="test.Day6">
+        <test-method status="PASS" signature="z()[pri:0, instance:test.Day6@687080dc]" name="z" is-config="true" duration-ms="0" started-at="2024-02-10T14:35:25 IST" finished-at="2024-02-10T14:35:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- z -->
+        <test-method status="PASS" signature="c()[pri:0, instance:test.Day6@687080dc]" name="c" duration-ms="2" started-at="2024-02-10T14:35:25 IST" finished-at="2024-02-10T14:35:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- c -->
+        <test-method status="PASS" signature="x()[pri:0, instance:test.Day6@687080dc]" name="x" is-config="true" duration-ms="0" started-at="2024-02-10T14:35:25 IST" finished-at="2024-02-10T14:35:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- x -->
+      </class> <!-- test.Day6 -->
+    </test> <!-- Gold Loan -->
+    <test name="Land Loan" duration-ms="5" started-at="2024-02-10T14:35:25 IST" finished-at="2024-02-10T14:35:25 IST">
+    </test> <!-- Land Loan -->
+    <test name="TopUp Loan" duration-ms="21" started-at="2024-02-10T14:35:25 IST" finished-at="2024-02-10T14:35:26 IST">
+      <class name="test.Day7">
+        <test-method status="PASS" signature="beforesuit()[pri:0, instance:test.Day7@25af5db5]" name="beforesuit" is-config="true" duration-ms="11" started-at="2024-02-10T14:35:25 IST" finished-at="2024-02-10T14:35:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuit -->
+        <test-method status="PASS" signature="aftersuit()[pri:0, instance:test.Day7@25af5db5]" name="aftersuit" is-config="true" duration-ms="1" started-at="2024-02-10T14:35:26 IST" finished-at="2024-02-10T14:35:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuit -->
+      </class> <!-- test.Day7 -->
+      <class name="test.Day8">
+        <test-method status="PASS" signature="before()[pri:0, instance:test.Day8@7b69c6ba]" name="before" is-config="true" duration-ms="1" started-at="2024-02-10T14:35:25 IST" finished-at="2024-02-10T14:35:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="PersonalLona1()[pri:0, instance:test.Day8@7b69c6ba]" name="PersonalLona1" duration-ms="2" started-at="2024-02-10T14:35:25 IST" finished-at="2024-02-10T14:35:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PersonalLona1 -->
+        <test-method status="PASS" signature="after()[pri:0, instance:test.Day8@7b69c6ba]" name="after" is-config="true" duration-ms="1" started-at="2024-02-10T14:35:26 IST" finished-at="2024-02-10T14:35:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="before()[pri:0, instance:test.Day8@7b69c6ba]" name="before" is-config="true" duration-ms="0" started-at="2024-02-10T14:35:26 IST" finished-at="2024-02-10T14:35:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="PersonalLona2()[pri:0, instance:test.Day8@7b69c6ba]" name="PersonalLona2" duration-ms="3" started-at="2024-02-10T14:35:26 IST" finished-at="2024-02-10T14:35:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PersonalLona2 -->
+        <test-method status="PASS" signature="after()[pri:0, instance:test.Day8@7b69c6ba]" name="after" is-config="true" duration-ms="1" started-at="2024-02-10T14:35:26 IST" finished-at="2024-02-10T14:35:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- test.Day8 -->
+    </test> <!-- TopUp Loan -->
+  </suite> <!-- loan Department -->
+</testng-results>
