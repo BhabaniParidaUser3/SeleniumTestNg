@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
+                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -116,6 +116,11 @@
                       <a href="#" panel-name="suite-Smoke_Department" class="show-methods passed suite-Smoke_Department"> (show)</a> <!-- show-methods passed suite-Smoke_Department -->
                     </span>
                     <div class="method-list-content passed suite-Smoke_Department">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Smoke_Department" title="test.Day9" hash-for-method="develope">develope</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Smoke_Department" title="test.ListnersTest" hash-for-method="m1">m1</a> <!-- method navigator-link -->
@@ -152,7 +157,11 @@
                   <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
 	at test.ListnersTest.m3(ListnersTest.java:25)
 	at java.util.ArrayList.forEach(Unknown Source)
-... Removed 31 stack frames
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 22 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -180,6 +189,21 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Smoke_Department-class-passed -->
+          <div class="suite-Smoke_Department-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.Day9</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="develope">
+                  </a> <!-- develope -->
+                  <span class="method-name">develope</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Smoke_Department-class-passed -->
         </div> <!-- panel Smoke_Department -->
         <div panel-name="test-xml-Smoke_Department" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -189,13 +213,14 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Smoke Department&quot;&gt;
+&lt;suite thread-count=&quot;3&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Smoke Department&quot; parallel=&quot;tests&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;test.ListenerConcept&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot; Smoke Regression&quot;&gt;
+  &lt;test thread-count=&quot;3&quot; name=&quot; Smoke Regression&quot; parallel=&quot;tests&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;test.ListnersTest&quot;/&gt;
+      &lt;class name=&quot;test.Day9&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!--  Smoke Regression --&gt;
 &lt;/suite&gt; &lt;!-- Smoke Department --&gt;
@@ -209,7 +234,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name"> Smoke Regression (1 class)</span>
+                <span class="test-name"> Smoke Regression (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -235,24 +260,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'm1')
 data.setCell(0, 2, 'test.ListnersTest')
-data.setCell(0, 3, 13);
+data.setCell(0, 3, 10);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'm3')
 data.setCell(1, 2, 'test.ListnersTest')
-data.setCell(1, 3, 7);
+data.setCell(1, 3, 5);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'm2')
 data.setCell(2, 2, 'test.ListnersTest')
-data.setCell(2, 3, 4);
+data.setCell(2, 3, 2);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'develope')
+data.setCell(3, 2, 'test.Day9')
+data.setCell(3, 3, 1);
 window.suiteTableData['Smoke_Department']= { tableData: data, tableDiv: 'times-div-Smoke_Department'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 24 ms</span>
+              <span class="suite-total-time">Total running time: 73 ms</span>
               <div id="times-div-Smoke_Department">
               </div> <!-- times-div-Smoke_Department -->
             </div> <!-- times-div -->
@@ -285,13 +314,20 @@ return data;
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">m2</span>
-                <span class="method-start">18 ms</span>
+                <span class="method-start">14 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">m3</span>
-                <span class="method-start">27 ms</span>
+                <span class="method-start">18 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.Day9</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">develope</span>
+                <span class="method-start">28 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
