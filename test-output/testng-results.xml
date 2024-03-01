@@ -1,68 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Smoke Department" duration-ms="73" started-at="2024-02-14T02:59:29 IST" finished-at="2024-02-14T02:59:29 IST">
+  <suite name="Default suite" duration-ms="71" started-at="2024-02-16T01:59:25 IST" finished-at="2024-02-16T01:59:25 IST">
     <groups>
     </groups>
-    <test name=" Smoke Regression" duration-ms="73" started-at="2024-02-14T02:59:29 IST" finished-at="2024-02-14T02:59:29 IST">
-      <class name="test.ListnersTest">
-        <test-method status="PASS" signature="m1()[pri:0, instance:test.ListnersTest@5a8806ef]" name="m1" duration-ms="10" started-at="2024-02-14T02:59:29 IST" finished-at="2024-02-14T02:59:29 IST">
+    <test name="Default test" duration-ms="71" started-at="2024-02-16T01:59:25 IST" finished-at="2024-02-16T01:59:25 IST">
+      <class name="test.childtestNgboilerplate">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.childtestNgboilerplate@5d76b067]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2024-02-16T01:59:25 IST" finished-at="2024-02-16T01:59:25 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- m1 -->
-        <test-method status="PASS" signature="m2()[pri:0, instance:test.ListnersTest@5a8806ef]" name="m2" duration-ms="2" started-at="2024-02-14T02:59:29 IST" finished-at="2024-02-14T02:59:29 IST">
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="childMethod2()[pri:0, instance:test.childtestNgboilerplate@5d76b067]" name="childMethod2" duration-ms="0" started-at="2024-02-16T01:59:25 IST" finished-at="2024-02-16T01:59:25 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- m2 -->
-        <test-method status="FAIL" signature="m3()[pri:0, instance:test.ListnersTest@5a8806ef]" name="m3" duration-ms="5" started-at="2024-02-14T02:59:29 IST" finished-at="2024-02-14T02:59:29 IST">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertTrue(Assert.java:45)
-at org.testng.Assert.assertTrue(Assert.java:55)
-at test.ListnersTest.m3(ListnersTest.java:25)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.util.concurrent.FutureTask.run(Unknown Source)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        </test-method> <!-- childMethod2 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.childtestNgboilerplate@5d76b067]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2024-02-16T01:59:25 IST" finished-at="2024-02-16T01:59:25 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- m3 -->
-      </class> <!-- test.ListnersTest -->
-      <class name="test.Day9">
-        <test-method status="PASS" signature="develope()[pri:0, instance:test.Day9@131276c2]" name="develope" duration-ms="1" started-at="2024-02-14T02:59:29 IST" finished-at="2024-02-14T02:59:29 IST">
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="childMethod1()[pri:0, instance:test.childtestNgboilerplate@5d76b067]" name="childMethod1" duration-ms="0" started-at="2024-02-16T01:59:25 IST" finished-at="2024-02-16T01:59:25 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- develope -->
-      </class> <!-- test.Day9 -->
-    </test> <!--  Smoke Regression -->
-  </suite> <!-- Smoke Department -->
+        </test-method> <!-- childMethod1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.childtestNgboilerplate@5d76b067]" name="afterMethod" is-config="true" duration-ms="16" started-at="2024-02-16T01:59:25 IST" finished-at="2024-02-16T01:59:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.childtestNgboilerplate@5d76b067]" name="afterMethod" is-config="true" duration-ms="0" started-at="2024-02-16T01:59:25 IST" finished-at="2024-02-16T01:59:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- test.childtestNgboilerplate -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
